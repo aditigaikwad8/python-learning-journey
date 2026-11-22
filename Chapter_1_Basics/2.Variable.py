@@ -1,4 +1,5 @@
-# Variable is just like a container which is used to store data in it. In python we don't need to declare the variable type, it will automatically detect the type of variable based on the value assigned to it.
+# Variable is just like a container which is used to store data in it. 
+# In python we don't need to declare the variable type, it will automatically detect the type of variable based on the value assigned to it.
 
 name="John"
 age=30

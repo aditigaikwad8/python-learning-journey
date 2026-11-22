@@ -2,7 +2,8 @@ str1 = "This is a sample string."
 str2 = 'This is another string.'
 str3 = """This is a multi-line string.""" 
 
-# This is becoz Python allows you to use either single quotes or double quotes to define strings. The choice between them is often a matter of personal preference or convenience, especially when the string itself contains quotes.
+# This is becoz Python allows you to use either single quotes or double quotes to define strings.
+# The choice between them is often a matter of personal preference or convenience, especially when the string itself contains quotes.
 # For e.g., if your string contains a single quote, you might prefer to use double quotes to define the string, and vice versa.
 # e.g., str4 = "It's a beautiful day."  # Using double quotes to avoid conflict with the single quote in "It's"
 
@@ -45,6 +46,7 @@ print(ch)  # Output: H
 print(str10[5]) # Output: W
 
 # but if we try to change the character at a specific index, we will get an error because strings are immutable in Python.
+# Immutable means cannot change
 # str10[0] = 'h'  # This will raise an error
 
 print("***SLICING***")
